@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class Program4
+public class SumDigits
 {
 	public static void main(String args[])
 	{
