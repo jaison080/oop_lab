@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class Program5
+public class Maximum
 {
 	public static void main(String args[])
 	{
