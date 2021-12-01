@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class Program7
+public class Frequency
 {
 	public static void main(String args[])
 	{
