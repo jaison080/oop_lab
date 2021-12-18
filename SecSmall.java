@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class SecLarge
+public class Program11
 {
 	public static void main(String args[])
 	{
@@ -16,15 +16,15 @@ public class SecLarge
 		{
 			for(j=0;j<n-i-1;j++)
 			{
-				if(a[i]<a[i+1])
+				if(a[j]<a[j+1])
 				{
-					temp=a[i];
-					a[i]=a[i+1];
-					a[i+1]=temp;
+					temp=a[j];
+					a[j]=a[j+1];
+					a[j+1]=temp;
 				}
 			}	
 		}		
 		small=a[n-2];
 		System.out.println("Second smallest element : "+small);
 	}			
-}					
+}
