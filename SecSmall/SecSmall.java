@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class Program11
+public class SecSmall
 {
 	public static void main(String args[])
 	{

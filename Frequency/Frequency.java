@@ -20,5 +20,5 @@ public class Frequency
 				count++;
 		}
 		System.out.println("Frequency of character "+c+" = "+count);
-	}
+		}
 }
