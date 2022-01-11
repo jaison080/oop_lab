@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class QuickSort
+class QuickSortNumber
 {
 	int partition(int arr[], int low, int high)
 	{
@@ -47,7 +47,7 @@ class QuickSort
         {
             arr[i]=input.nextInt();
         }
-		QuickSort ob = new QuickSort();
+		QuickSortNumber ob = new QuickSortNumber();
 		ob.sort(arr,0,n-1);
 		System.out.println("Sorted array : ");
 		printArray(arr,n);
