@@ -1,54 +1,80 @@
-class ExceptionHandling 
+import java.util.Scanner;;
+
+// This is a custom checked exception, hence it has to be either handled using 
+// Try/Catch  or  it has to be declared to be thrown using the "throws" keyword
+class myCheckedException extends Exception 
 {
-    // Through an exception out of the method.
-    static void procA()
+    myCheckedException(String s) 
     {
-        try
+        super(s);
+    }
+}
+
+public class ExceptionHandling
+ {
+
+    // Demonstrates Try, Catch and Finally
+    static void divide() 
+    {
+        Scanner sc = new Scanner(System.in);
+        try 
         {
-            System.out.println("inside procA");
-            throw new RuntimeException("demo");
+            System.out.print("Enter two Numbers: ");
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            System.out.println(a + "/" + b + "= " + a / b);
+        } 
+        catch (ArithmeticException e) 
+        {
+            System.out.println("Error: " + e);
         } 
         finally 
         {
-            System.out.println("procA's finally");
+            sc.close();
         }
     }
-    // Return from within a try block.
-    static void procB() 
+
+    static void testFunction() 
     {
         try 
         {
-            System.out.println("inside procB");
-            return;
+            System.out.println("Hello, I will now throw an Exception");
+            throw new myCheckedException("This is an Exception");
         } 
-        finally 
+        catch (myCheckedException e) 
         {
-            System.out.println("procB's finally");
+            System.out.println("Caught Excpetion: " + e);
         }
     }
-    // Execute a try block normally.
-    static void procC() 
+
+
+    // since the Exception is thrown outside a try-catch block, 
+    // we have to declare that this function has the possibility of throwing an exception
+    static void testFunction2() throws myCheckedException 
     {
-        try 
-        {
-            System.out.println("inside procC");
-        } 
-        finally 
-        {
-            System.out.println("procC's finally");
-        }
+        System.out.println("\n I will now throw an Exception too, except, I wont handle it!");
+        throw new myCheckedException("Another Exception");
     }
-    public static void main(String args[]) 
+
+    public static void main(String[] args) 
     {
+        divide();
+        testFunction();
+
+        // since testFunction2 throws a checked Exception, it can't be called without handling it, 
+        // we have to either
+        // - call it inside a try-catch block
+        // - or declare that this main function also throws an exception
+        // testFunction2();
+
+
         try 
         {
-            procA();
-        } 
-        catch (Exception e) 
-        {
-            System.out.println("Exception caught");
+            testFunction2();
         }
-        procB();
-        procC();
+        catch(myCheckedException e)
+        {
+            System.out.println("Caught the Exception: " + e);
+        }
     }
 }
