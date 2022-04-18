@@ -7,7 +7,7 @@ public class TestSQLJDBC {
       try {
          Class.forName("org.mariadb.jdbc.Driver");
          c = DriverManager
-               .getConnection("jdbc:mariadb://localhost:3306/test", "root", "12345");
+               .getConnection("jdbc:mariadb://localhost:3306/Test", "root", "12345");
          c.setAutoCommit(false);
          System.out.println("Opened database successfully");
 
