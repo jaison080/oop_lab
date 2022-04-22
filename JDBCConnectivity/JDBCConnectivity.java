@@ -1,16 +1,17 @@
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
-public class TestSQLJDBC {
+public class JDBCConnectivity {
    public static void main(String args[]) {
       Connection c = null;
       Statement stmt = null;
       try {
-         Class.forName("org.mariadb.jdbc.Driver");
          c = DriverManager
                .getConnection("jdbc:mariadb://localhost:3306/Test", "root", "12345");
          c.setAutoCommit(false);
          System.out.println("Opened database successfully");
-
          stmt = c.createStatement();
          ResultSet rs = stmt.executeQuery("SELECT * FROM COMPANY;");
          while (rs.next()) {
@@ -30,7 +31,8 @@ public class TestSQLJDBC {
          stmt.close();
          c.close();
       } catch (Exception e) {
-         System.err.println(e.getClass().getName() + ": " + e.getMessage());
+         System.err.println(e.getClass().getName() + ": " +
+               e.getMessage());
          System.exit(0);
       }
       System.out.println("Operation done successfully");
