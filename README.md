@@ -7,7 +7,7 @@ The program description are given below and you can open the corresponding progr
 <h2>CYCLE 1</h2>
 <ul>
 <li>1.This is a simple Java program</li>
-<li>2.Example2</li>
+<li>2.Num Program</li>
 <li>3.User input example.</li>
 <li>4.Find the sum of digits in an integer read from the keyboard</li>
 <li>5.Find the largest of N numbers, without using array.</li>
