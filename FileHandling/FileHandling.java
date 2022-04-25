@@ -1,7 +1,7 @@
 import java.io.FileWriter;
 import java.io.IOException;
 
-class CreateFile {
+class FileHandling {
     public static void main(String[] args) throws IOException {
         String str = "File Handling in Java using " +
                 " FileWriter and FileReader ";
