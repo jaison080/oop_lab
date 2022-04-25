@@ -61,9 +61,6 @@ class Frame extends JFrame implements ActionListener {
                 result += s.charAt(start++);
             tx1.setText(result);
         }
-        if (str == "Cancel") {
-            System.exit(0);
-        }
     }
 
 }
