@@ -1,4 +1,4 @@
-# oop_lab
+# Object Oriented Programming Lab(2019 Scheme)
 <h3>OOP LAB</h3>
 <p>Contains solutions for all OOP Lab Programs.
 This repository contains all you need for OOP Lab of KTU Semester 3
@@ -61,7 +61,7 @@ The program description are given below and you can open the corresponding progr
 <br>iv) Exit</li>
   <li>19.Write a Java program that implements Quick sort algorithm for sorting a list of numbers in ascending order.</li>
   <li>20.Write a Java program that implements Quick sort algorithm for sorting a list of names in ascending order.</li>
-  <li>21.Write a Java program that implements the binary search algorithm.</li>
+  <li>21.Write a Java program that implements the Binary Search algorithm.</li>
   </ul>
   <br>
   <h2>CYCLE 7</h2>
@@ -72,3 +72,26 @@ The program description are given below and you can open the corresponding progr
   </ul>
   <br>
   <h2>CYCLE 8</h2>
+  <ul>
+  <li>25.Write a file handling program in java with reader/writer.</li>
+  <li>26.Write a Java program that read from a file and write to file by handling all file related exceptions.</li>
+  </ul>
+  <br>
+  <h2>CYCLE 9</h2>
+  <ul>
+  <li>27.Write a Java program that implements a multi-threaded program which has three threads. First thread generates a random integer every 1 second. if the value is even, second thread computes the square of the number and prints. If the value is odd, the third thread will print the value of cube of that number. </li>
+  <li>28.Write a Java program that shows thread synchronization.</li>
+  </ul>
+  <br>
+  <h2>CYCLE 10</h2>
+  <ul>
+  <li>29.Write a Java program that reads a line of integers and then displays each integer, and the sum of all the integers. (use String Tokenizer class of java.util).</li>
+  <li>30.Write a java program to display all records from a table using Java Database Connectivity (JDBC).</li>
+  </ul>
+  <br>
+   <h2>CYCLE 11</h2>
+  <ul>
+  <li>31.Write a Java program that works as a simple calculator. Arrange buttons for digits and the +,-,*,/ operations properly. Add a text field to display the result. Handle any exceptions like divide by zero. Use Java Swing.</li>
+  <li>32.Write java program that simulates a traffic light. The program lets the user select one of three lights.: Red, Green or Yellow. When a radio button is selected, the light is turned on and only one light can be on at a time/ No light is on when the program starts.</li>
+  </ul>
+  <br>
