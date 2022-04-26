@@ -18,7 +18,7 @@ The program description are given below and you can open the corresponding progr
 <li>6.Write a JAVA program that checks whether a given string is a palindrome or not
 <br>Input:     String read from keyboard
 <br>Output:  Message displayed</li>
-<li>7Write a Java program to find the frequency of given character in a string.
+<li>7.Write a Java program to find the frequency of given character in a string.
 <br>Input:  String read from keyboard
            Character read from keyboard.
 <br>Output: Number of occurrences of the character in the string</li>
@@ -68,7 +68,7 @@ The program description are given below and you can open the corresponding progr
   <ul>
   <li>22.Extend the implementation of Singly linked list to Doubly Linked List.</li>
   <li>23.Extend the Quicksort program to sort a list of names. Use compareTo() method for comparing strings</li>
-  <li>24.Write a java program to illustrate interface inheritance.</li>
+  <li>24.Write a Java program to illustrate interface inheritance.</li>
   </ul>
   <br>
   <h2>CYCLE 8</h2>
@@ -86,12 +86,12 @@ The program description are given below and you can open the corresponding progr
   <h2>CYCLE 10</h2>
   <ul>
   <li>29.Write a Java program that reads a line of integers and then displays each integer, and the sum of all the integers. (use String Tokenizer class of java.util).</li>
-  <li>30.Write a java program to display all records from a table using Java Database Connectivity (JDBC).</li>
+  <li>30.Write a Java program to display all records from a table using Java Database Connectivity (JDBC).</li>
   </ul>
   <br>
    <h2>CYCLE 11</h2>
   <ul>
   <li>31.Write a Java program that works as a simple calculator. Arrange buttons for digits and the +,-,*,/ operations properly. Add a text field to display the result. Handle any exceptions like divide by zero. Use Java Swing.</li>
-  <li>32.Write java program that simulates a traffic light. The program lets the user select one of three lights.: Red, Green or Yellow. When a radio button is selected, the light is turned on and only one light can be on at a time/ No light is on when the program starts.</li>
+  <li>32.Write Java program that simulates a traffic light. The program lets the user select one of three lights.: Red, Green or Yellow. When a radio button is selected, the light is turned on and only one light can be on at a time/ No light is on when the program starts.</li>
   </ul>
   <br>
