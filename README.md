@@ -96,4 +96,8 @@ The program description are given below and you can open the corresponding progr
   <li>31.Write a Java program that works as a simple calculator. Arrange buttons for digits and the +,-,*,/ operations properly. Add a text field to display the result. Handle any exceptions like divide by zero. Use Java Swing.<a href="https://github.com/jaison080/ds_lab/blob/main/Cycle%201/Program1.c" target="blank" > Solution</a></li>
   <li>32.Write Java program that simulates a traffic light. The program lets the user select one of three lights.: Red, Green or Yellow. When a radio button is selected, the light is turned on and only one light can be on at a time/ No light is on when the program starts.<a href="https://github.com/jaison080/ds_lab/blob/main/Cycle%201/Program1.c" target="blank" > Solution</a></li>
   </ul>
+  <h2>EXTERNAL EXAM QUESTION</h2>
+  <ul>
+  <li>33.Write a Java program that creates two textfields and a button named REVERSE.The first textfield inputs the string from the user and when the button is pressed the second textfield displays the each word reversed in a sentence.<a href="https://github.com/jaison080/ds_lab/blob/main/Cycle%201/Program1.c" target="blank" > Solution</a></li>
+  </ul>
   <br>
