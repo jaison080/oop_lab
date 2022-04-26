@@ -39,27 +39,17 @@ class Frame extends JFrame implements ActionListener {
         String str = ae.getActionCommand();
         if (str == "REVERSE") {
             String s = tx.getText();
-            int i = s.length() - 1;
-            int start, end = i + 1;
-            String result = "";
-
-            while (i >= 0) {
-                if (s.charAt(i) == ' ') {
-                    start = i + 1;
-                    while (start != end)
-                        result += s.charAt(start++);
-
-                    result += ' ';
-
-                    end = i;
+            String[] words = s.split(" ");
+            String reverseString = "";
+            for (int i = 0; i < words.length; i++) {
+                String word = words[i];
+                String reverseWord = "";
+                for (int j = word.length() - 1; j >= 0; j--) {
+                    reverseWord = reverseWord + word.charAt(j);
                 }
-                i--;
+                reverseString = reverseString + reverseWord + " ";
             }
-
-            start = 0;
-            while (start != end)
-                result += s.charAt(start++);
-            tx1.setText(result);
+            tx1.setText(reverseString);
         }
     }
 
