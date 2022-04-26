@@ -6,7 +6,7 @@ The program description are given below and you can open the corresponding progr
 <br>
 <h2>CYCLE 1</h2>
 <ul>
-<li>1.This is a simple Java program.<a href="https://github.com/jaison080/ds_lab/blob/main/Example/Example.java" target="blank" > Solution</a></li>
+<li>1.This is a simple Java program.<a href="https://github.com/jaison080/oop_lab/blob/main/Example/Example.java" target="blank" > Solution</a></li>
 <li>2.Num Program.<a href="https://github.com/jaison080/oop_lab/blob/main/Num/Num.java" target="blank" > Solution</a></li>
 <li>3.User input example.<a href="https://github.com/jaison080/oop_lab/blob/main/Salary/Salary.java" target="blank" > Solution</a></li>
 <li>4.Find the sum of digits in an integer read from the keyboard.<a href="https://github.com/jaison080/oop_lab/blob/main/SumDigits/SumDigits.java" target="blank" > Solution</a></li>
