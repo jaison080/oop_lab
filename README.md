@@ -15,7 +15,7 @@ The program description are given below and you can open the corresponding progr
   <br>
   <h2>CYCLE 2</h2>
   <ul>
-<li>6.Write a JAVA program that checks whether a given string is a palindrome or not.<a href="https://github.com/jaison080/oop_lab/blob/main/Palindrome/Palindrome.java" target="blank" > Solution</a>
+<li>6.Write a Java program that checks whether a given string is a palindrome or not.<a href="https://github.com/jaison080/oop_lab/blob/main/Palindrome/Palindrome.java" target="blank" > Solution</a>
 <br>Input:     String read from keyboard
 <br>Output:  Message displayed.
  </li>
